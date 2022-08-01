@@ -13,5 +13,5 @@ public interface Calculation {
     public abstract Double divide (String firstInputValue,String secondInputValue);
     public abstract Double moduloDivision (String firstInputValue,String secondInputValue);
     public abstract Double raiseToPower (String firstInputValue,String secondInputValue);
-    public abstract long root (String firstInputValue,String secondInputValue);
+    public abstract Double root (String firstInputValue,String secondInputValue);
 }
