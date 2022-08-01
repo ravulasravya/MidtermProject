@@ -79,7 +79,7 @@ public class CalculatorMain {
                         System.out.println(firstInputValue + " root of " + secondInputValue + " equals " + inputs.root(firstInputValue, secondInputValue) + ".");
                         break;
                     default:
-                        System.out.println(("Please choose only from the given operators"));
+                        System.out.println("Please choose only from the given operators");
                 }
             }
             catch (Exception e){
