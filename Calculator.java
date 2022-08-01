@@ -87,15 +87,15 @@ public class Calculator implements Calculation {
     }
 
     /**
-     * method root takes String input values from the user, converts them to double type, calculates any root and returns double type output.
+     * method root takes String input values from the user, converts them to double type, calculates any root.
      * @param firstInputValue   first String input value entered
      * @param secondInputValue  second String input value entered
-     * @return  returns long value after calculating the root
+     * @return  returns Double value after calculating the root
      */
     @Override
-    public long root(String firstInputValue,String secondInputValue){
+    public Double root(String firstInputValue,String secondInputValue){
         //parses String input values to double type before calculation. Uses Math class method.
-        long root = Math.round(Math.pow(Double.parseDouble(secondInputValue),1/Double.parseDouble(firstInputValue)));
+        Double root = Math.pow(Double.parseDouble(secondInputValue),1/Double.parseDouble(firstInputValue));
         return root;
     }
 
