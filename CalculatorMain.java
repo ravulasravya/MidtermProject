@@ -63,12 +63,7 @@ public class CalculatorMain {
                         System.out.println(firstInputValue + " multiplied by " + secondInputValue + " equals " + inputs.multiply(firstInputValue, secondInputValue) + ".");
                         break;
                     case "/":
-                        try {
-                            System.out.println(firstInputValue + " divided by " + secondInputValue + " equals " + inputs.divide(firstInputValue, secondInputValue) + ".");
-                        } catch (ArithmeticException e) {
-                            System.out.println("Divide by zero situation");
-                        }
-                        break;
+                        System.out.println(firstInputValue + " divided by " + secondInputValue + " equals " + inputs.divide(firstInputValue, secondInputValue) + ".");
                     case "%":
                         System.out.println("Remainder for "+ firstInputValue + " divided by " + secondInputValue + " equals " + inputs.moduloDivision(firstInputValue, secondInputValue) + ".");
                         break;
